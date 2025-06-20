@@ -1,5 +1,5 @@
 {
-  "name": "leve-saude-api",
+  "name": "leve-saude-agendamento-medico",
   "version": "1.0.0",
   "description": "API para agendamento de consultas médicas",
   "main": "index.js",

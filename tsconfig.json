@@ -12,7 +12,12 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
-    "baseUrl": "."
+    "baseUrl": "./src",
+    "paths": {
+      "@agenda/*": ["agenda/*"],
+      "@core/*": ["core/*"],
+      "@utils/*": ["utils/*"]
+    }
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]

@@ -24,3 +24,12 @@ custom:
     define: { 'require.resolve': undefined }
     platform: 'node'
     concurrency: 10
+
+functions:
+  getAgendas:
+    handler: src/agenda/controller/agendaController.getAgendas
+    events:
+      - http:
+          path: agendas
+          method: get
+          cors: true
