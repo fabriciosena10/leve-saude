@@ -15,6 +15,7 @@
     "baseUrl": "./src",
     "paths": {
       "@agenda/*": ["agenda/*"],
+      "@agendamento/*": ["agendamento/*"],
       "@core/*": ["core/*"],
       "@utils/*": ["utils/*"]
     }

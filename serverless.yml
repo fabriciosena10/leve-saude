@@ -33,3 +33,11 @@ functions:
           path: agendas
           method: get
           cors: true
+
+  createAgendamento:
+    handler: src/agendamento/controller/agendamentoController.createAgendamento
+    events:
+      - http:
+          path: agendamento
+          method: post
+          cors: true
