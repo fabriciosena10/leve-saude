@@ -1,0 +1,2 @@
+# Trate todos os arquivos como texto e normalize as terminações de linha para LF.
+* text=auto eol=lf
